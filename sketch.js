@@ -107,7 +107,7 @@ console.log(responseJSON)
 var datetime = responseJSON.datetime
 var hour = datetime.slice(11,13)
 
-if(hour>=06 && hour<=19){
+if(hour>=06 && hour<=16){
     bg = "sprites/bg.png"
 }
 else {
